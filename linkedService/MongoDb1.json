@@ -1,0 +1,13 @@
+{
+	"name": "MongoDb1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "MongoDbV2",
+		"typeProperties": {
+			"connectionString": "mongodb://usafacts-staging:@usafacts-staging.documents.azure.com:10255/?authSource=admin;ssl=true",
+			"database": "Metric",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlVTQUZBQ1RTREFUQUZBQ1RPUllfNDM1Mzg1ZTMtNDJhYy00YTliLTkyMmQtNmNmNGUwMzZlY2JjIg0KfQ=="
+		}
+	}
+}

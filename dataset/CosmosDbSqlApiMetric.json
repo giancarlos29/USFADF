@@ -1,0 +1,23 @@
+{
+	"name": "CosmosDbSqlApiMetric",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDb1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {
+			"type": "object",
+			"properties": {
+				"AutoIncrementId": {
+					"type": "integer"
+				}
+			}
+		},
+		"typeProperties": {
+			"collectionName": "Metric"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

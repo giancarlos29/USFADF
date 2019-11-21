@@ -1,0 +1,223 @@
+{
+	"name": "UsaFactsSql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "IsDeleted",
+				"type": "bit"
+			},
+			{
+				"name": "CurrentAdjustment",
+				"type": "nvarchar"
+			},
+			{
+				"name": "XType",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UnitPower",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "SourcesModifiedOn",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ChartType",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ModifiedOn",
+				"type": "nvarchar"
+			},
+			{
+				"name": "YearType",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LexiconName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LastUpdatedFromScraper",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "FullyQualifiedName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "IsCarouselMetric",
+				"type": "bit"
+			},
+			{
+				"name": "CreatedOn",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "YType",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PWBMUpdate",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "DefaultAdjustment",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Sequence",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PWBMSync",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "PWBMId",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "Concept",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ModifiedBy",
+				"type": "nvarchar"
+			},
+			{
+				"name": "XLabel",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SlideId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Version",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PWBMLastChecked",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Attributes",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DefaultStackedArea",
+				"type": "bit"
+			},
+			{
+				"name": "DataSeriesModifiedOn",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "IsTotalsRow",
+				"type": "bit"
+			},
+			{
+				"name": "SigFigs",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "IsPrimary",
+				"type": "bit"
+			},
+			{
+				"name": "CreatedBy",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LastPushedIntoProduction",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "ApplicationType",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "YLabel",
+				"type": "nvarchar"
+			},
+			{
+				"name": "IsIn10K",
+				"type": "bit"
+			},
+			{
+				"name": "Description",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Key",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "IsDisplayed",
+				"type": "bit"
+			},
+			{
+				"name": "Parent",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "IsFeatured",
+				"type": "bit"
+			},
+			{
+				"name": "IsMemoTable",
+				"type": "bit"
+			},
+			{
+				"name": "IsInAnnualReport",
+				"type": "bit"
+			}
+		],
+		"typeProperties": {
+			"schema": "temp",
+			"table": "Metrics"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
